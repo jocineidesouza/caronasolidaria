@@ -6,13 +6,13 @@ import { getFirestore } from 'firebase/firestore'
 import { getAnalytics } from 'firebase/analytics'
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyDbem797aGgigcw-zisSm4aGPiRv7x-gik',
-  authDomain: 'carona-sustentavel.firebaseapp.com',
-  projectId: 'carona-sustentavel',
-  storageBucket: 'carona-sustentavel.appspot.com',
-  messagingSenderId: '916411979192',
-  appId: '1:916411979192:web:4291f307ee7fd9f903ab4d',
-  measurementId: 'G-6N4NCJ157V'
+  apiKey: '',
+  authDomain: '',
+  projectId: '',
+  storageBucket: '',
+  messagingSenderId: '',
+  appId: '',
+  measurementId: ''
 }
 
 export default boot(async ({ router, app, Vue }) => {
